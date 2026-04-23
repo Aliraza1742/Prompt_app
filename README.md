@@ -12,11 +12,10 @@ Use this section to add high-level screenshots for quick context.
 ![Library Page](images/prompt.png)
 ![Settings Page](images/settings.png)
 
-_Placeholder: Add one screenshot per core page (Studio, Library, Settings)._ 
 
-It helps you:
+Itfeatures include:
 - Create and organize prompts by category.
-- Refine rough prompt drafts into a structured format using AI.
+- Refine rough prompt drafts into a structured format using AI so that you can get the maximum output out of it.
 - Save, edit, delete, search, filter, favorite, and copy prompts.
 - Manage client-side settings like theme and API base override.
 
@@ -42,7 +41,6 @@ The project has two parts:
 - Text search by title/content.
 - Clipboard copy support.
 - Light/dark theme with persisted preference.
-- Toast notifications for user feedback.
 
 ## Tech stack
 
@@ -60,13 +58,6 @@ The project has two parts:
 - OpenAI Node SDK
 - dotenv + CORS
 
-## Architecture overview
-
-### Architecture Diagram
-
-![System Architecture](docs/images/architecture/system-architecture.png)
-
-_Placeholder: Add a diagram showing Client -> Server -> Supabase/OpenAI flow._
 
 ### Frontend architecture (`client/src`)
 - `pages/`
@@ -215,13 +206,6 @@ create table if not exists prompts (
 ```
 
 ## Local development
-
-### Setup Screenshots (Optional)
-
-![Server Running Terminal](docs/images/setup/server-running.png)
-![Client Running Terminal](docs/images/setup/client-running.png)
-
-_Placeholder: Add terminal screenshots showing successful startup for server and client._
 
 ### 1. Install dependencies
 
